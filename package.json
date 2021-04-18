@@ -1,0 +1,19 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "description": "belajar express api dengan mysql",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js --watch"
+  },
+  "keywords": [],
+  "author": "fadliselaz",
+  "license": "MIT"
+}

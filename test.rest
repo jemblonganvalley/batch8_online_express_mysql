@@ -1,0 +1,30 @@
+###
+GET http://localhost:8000/api/absens
+Content-Type: application/json
+Accept: application/json
+
+###
+POST http://localhost:8000/api/absens/add
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username" : "fadliselaz",
+    "email" : "fadliselaz@gmail.com",
+    "phone" : "081213655573",
+    "batch" : "0"
+}
+
+###
+DELETE http://localhost:8000/api/absens/delete/3
+Content-Type: application/json
+Accept: application/json
+
+###
+PATCH http://localhost:8000/api/absens/edit/5
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email" : "fadliganteng@gmail.com"
+}
